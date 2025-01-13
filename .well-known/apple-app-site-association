@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["TEAMID.com.example"],
+        "components": [
+          {
+            "/": "/login",
+            "comment": "Matches URL with a path /login"
+          },
+          {
+            "/": "/product/*",
+            "comment": "Matches any URL with a path that starts with /product/."
+          }
+        ]
+      }
+    ]
+  }
+}
